@@ -10,7 +10,7 @@ Xcode Files Backup
 
 找到startUnity函数
 
-在函数末尾加上以下语句
+在函数末尾加上以下语句：
 
 [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
 
